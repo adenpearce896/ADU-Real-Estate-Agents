@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Financing Challenges Can Buyers Face When Purchasing a Home With an ADU?</title>
+<meta name="description" content="Learn the common financing challenges buyers face when purchasing a home with an ADU, including appraisals, permits, rental income, documentation, and loan program rules.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+  :root{
+    --blue-900:#081B36;
+    --blue-800:#0A2342;
+    --blue-700:#0E3A6E;
+    --blue-600:#144E92;
+    --blue-500:#1B62B3;
+    --blue-400:#2A7BD1;
+    --blue-100:#DCEAFB;
+    --blue-50:#EEF5FD;
+    --grey-btn:#959595;
+    --grey-btn-dark:#7A7A7A;
+    --ink:#1C2431;
+    --body:#3A4557;
+    --muted:#66748A;
+    --line:#E7EEF8;
+    --radius:20px;
+    --shadow:0 18px 44px -30px rgba(10,35,66,.55);
+  }
+
+  *{box-sizing:border-box;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    margin:0;
+    background:#FFFFFF;
+    color:var(--body);
+    font-family:'Montserrat', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  img{max-width:100%;display:block;}
+
+  .container{
+    width:100%;
+    max-width:1120px;
+    margin:0 auto;
+    padding:0 22px;
+  }
+
+  /* ============ HEADER ============ */
+  .site-header{
+    position:sticky;
+    top:0;
+    z-index:60;
+    background:rgba(255,255,255,.94);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    padding-top:14px;
+    padding-bottom:14px;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:13px;
+    text-decoration:none;
+  }
+
+  .brand img{
+    height:52px;
+    width:52px;
+    object-fit:cover;
+    border-radius:50%;
+    border:2px solid var(--blue-100);
+    box-shadow:0 6px 16px -8px rgba(10,35,66,.45);
+  }
+
+  .brand-name{
+    display:block;
+    font-size:1rem;
+    font-weight:800;
+    letter-spacing:.2px;
+    color:var(--blue-700);
+    line-height:1.2;
+  }
+
+  .brand-sub{
+    display:block;
+    font-size:.74rem;
+    font-weight:600;
+    letter-spacing:1.6px;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-top:3px;
+  }
+
+  .header-actions{
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+
+  .header-phone{
+    font-size:.92rem;
+    font-weight:700;
+    color:var(--blue-700);
+    letter-spacing:.3px;
+    white-space:nowrap;
+  }
+
+  .btn{
+    display:inline-block;
+    font-family:'Montserrat', sans-serif;
+    font-size:.85rem;
+    font-weight:700;
+    letter-spacing:.6px;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding:13px 26px;
+    border-radius:60px;
+    border:none;
+    cursor:pointer;
+    transition:transform .25s ease, background .25s ease, box-shadow .25s ease;
+  }
+
+  .btn-grey{
+    background:var(--grey-btn);
+    color:#fff;
+    box-shadow:0 12px 26px -16px rgba(0,0,0,.55);
+  }
+
+  .btn-grey:hover{
+    background:var(--grey-btn-dark);
+    transform:translateY(-2px);
+    box-shadow:0 18px 30px -16px rgba(0,0,0,.6);
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    padding:78px 0 86px;
+    background:
+      radial-gradient(900px 460px at 88% -14%, rgba(42,123,209,.55), transparent 62%),
+      radial-gradient(700px 420px at 4% 110%, rgba(27,98,179,.42), transparent 60%),
+      linear-gradient(135deg, #081B36 0%, #0E3A6E 48%, #144E92 100%);
+    color:#fff;
+  }
+
+  .hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size:64px 64px;
+    mask-image:radial-gradient(70% 70% at 50% 40%, #000 20%, transparent 100%);
+    -webkit-mask-image:radial-gradient(70% 70% at 50% 40%, #000 20%, transparent 100%);
+    pointer-events:none;
+  }
+
+  .hero-inner{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+  }
+
+  .hero-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.24);
+    color:#EAF3FE;
+    font-size:.72rem;
+    font-weight:700;
+    letter-spacing:1.8px;
+    text-transform:uppercase;
+    padding:9px 18px;
+    border-radius:60px;
+    margin-bottom:24px;
+  }
+
+  .hero-badge span.dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:#7FB6F0;
+    box-shadow:0 0 0 4px rgba(127,182,240,.25);
+  }
+
+  .hero h1{
+    font-size:clamp(1.95rem, 4.3vw, 3.05rem);
+    font-weight:800;
+    line-height:1.18;
+    letter-spacing:-.5px;
+    margin:0 0 22px;
+    color:#fff;
+  }
+
+  .hero-rule{
+    width:92px;
+    height:5px;
+    border-radius:6px;
+    background:linear-gradient(90deg,#7FB6F0,#FFFFFF);
+    margin-bottom:22px;
+  }
+
+  .hero p{
+    font-size:1.03rem;
+    font-weight:400;
+    line-height:1.8;
+    color:rgba(255,255,255,.86);
+    margin:0;
+    max-width:720px;
+  }
+
+  /* ============ LAYOUT ============ */
+  .article-wrap{
+    padding:56px 0 20px;
+  }
+
+  .content{
+    max-width:900px;
+    margin:0 auto;
+  }
+
+  /* ============ LEDE ============ */
+  .lede{
+    font-size:1.13rem;
+    line-height:1.92;
+    color:#22303F;
+    font-weight:400;
+    border-left:5px solid var(--blue-500);
+    padding:4px 0 4px 26px;
+    margin:0 0 40px;
+  }
+
+  /* ============ BLOCKS / CARDS ============ */
+  .block{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:36px 38px;
+    margin:0 0 26px;
+    box-shadow:var(--shadow);
+    transition:box-shadow .3s ease, transform .3s ease, border-color .3s ease;
+  }
+
+  .block:hover{
+    border-color:#D3E3F6;
+    box-shadow:0 26px 56px -34px rgba(10,35,66,.6);
+  }
+
+  .block h2{
+    position:relative;
+    font-size:clamp(1.24rem, 2.3vw, 1.62rem);
+    font-weight:700;
+    line-height:1.35;
+    letter-spacing:-.2px;
+    color:var(--blue-700);
+    margin:0 0 22px;
+    padding-bottom:16px;
+  }
+
+  .block h2::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:68px;
+    height:4px;
+    border-radius:6px;
+    background:linear-gradient(90deg, var(--blue-500), var(--blue-400));
+  }
+
+  .block p{
+    margin:0 0 18px;
+    font-size:1.02rem;
+    line-height:1.9;
+    color:var(--body);
+  }
+
+  .block p:last-child{margin-bottom:0;}
+
+  /* Blue feature cards */
+  .block--blue{
+    background:linear-gradient(140deg, #081B36 0%, #0E3A6E 52%, #144E92 100%);
+    border-color:transparent;
+    box-shadow:0 30px 60px -34px rgba(10,35,66,.9);
+  }
+
+  .block--blue h2{color:#fff;}
+  .block--blue h2::after{background:linear-gradient(90deg,#7FB6F0,#D7E9FC);}
+  .block--blue p{color:rgba(255,255,255,.9);}
+
+  /* Links */
+  .content a{
+    color:var(--blue-600);
+    font-weight:700;
+    text-decoration:underline;
+    text-decoration-thickness:1.5px;
+    text-underline-offset:3px;
+    text-decoration-color:rgba(27,98,179,.35);
+    transition:color .2s ease, text-decoration-color .2s ease;
+  }
+
+  .content a:hover{
+    color:var(--blue-500);
+    text-decoration-color:var(--blue-500);
+  }
+
+  .block--blue a{
+    color:#CFE4FB;
+    text-decoration-color:rgba(207,228,251,.45);
+  }
+
+  .block--blue a:hover{
+    color:#FFFFFF;
+    text-decoration-color:#FFFFFF;
+  }
+
+  /* ============ FAQ ============ */
+  .faq-title{
+    font-size:clamp(1.35rem, 2.6vw, 1.8rem);
+    font-weight:800;
+    color:var(--blue-700);
+    text-align:center;
+    margin:52px 0 8px;
+    letter-spacing:-.3px;
+  }
+
+  .faq-sub{
+    text-align:center;
+    color:var(--muted);
+    font-size:.95rem;
+    font-weight:500;
+    margin:0 0 30px;
+  }
+
+  .faq-grid{
+    display:grid;
+    gap:16px;
+    margin-bottom:36px;
+  }
+
+  .faq-item{
+    background:var(--blue-50);
+    border:1px solid #D9E8FA;
+    border-left:5px solid var(--blue-500);
+    border-radius:14px;
+    padding:24px 28px;
+    transition:transform .28s ease, box-shadow .28s ease, background .28s ease;
+  }
+
+  .faq-item:hover{
+    background:#E6F0FC;
+    transform:translateX(4px);
+    box-shadow:0 18px 40px -30px rgba(10,35,66,.7);
+  }
+
+  .faq-item h3{
+    font-size:1.02rem;
+    font-weight:700;
+    color:var(--blue-700);
+    margin:0 0 10px;
+    line-height:1.5;
+  }
+
+  .faq-item p{
+    margin:0;
+    font-size:.98rem;
+    line-height:1.85;
+    color:var(--body);
+  }
+
+  /* ============ MAP ============ */
+  .map-section{
+    background:linear-gradient(140deg, #081B36 0%, #0E3A6E 55%, #144E92 100%);
+    border-radius:24px;
+    padding:44px 40px 40px;
+    margin:44px 0 46px;
+    box-shadow:0 34px 66px -38px rgba(10,35,66,.95);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .map-section::after{
+    content:"";
+    position:absolute;
+    width:420px;
+    height:420px;
+    right:-160px;
+    top:-180px;
+    border-radius:50%;
+    background:radial-gradient(circle, rgba(42,123,209,.5), transparent 68%);
+    pointer-events:none;
+  }
+
+  .map-head{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    margin-bottom:26px;
+  }
+
+  .map-head .eyebrow{
+    display:inline-block;
+    font-size:.7rem;
+    font-weight:700;
+    letter-spacing:2.4px;
+    text-transform:uppercase;
+    color:#9CC6F3;
+    margin-bottom:12px;
+  }
+
+  .map-head h2{
+    font-size:clamp(1.3rem, 2.6vw, 1.8rem);
+    font-weight:800;
+    color:#fff;
+    margin:0 0 10px;
+    letter-spacing:-.3px;
+  }
+
+  .map-head p{
+    margin:0;
+    font-size:.96rem;
+    color:rgba(255,255,255,.82);
+  }
+
+  .map-frame{
+    position:relative;
+    z-index:2;
+    width:100%;
+    aspect-ratio:16/9;
+    border-radius:16px;
+    overflow:hidden;
+    background:#fff;
+    border:6px solid rgba(255,255,255,.14);
+    box-shadow:0 24px 48px -28px rgba(0,0,0,.7);
+  }
+
+  .map-frame iframe{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    border:0;
+    display:block;
+  }
+
+  .map-cta{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    margin-top:28px;
+  }
+
+  /* ============ FOOTER ============ */
+  .site-footer{
+    background:var(--blue-800);
+    color:rgba(255,255,255,.8);
+    padding:52px 0 28px;
+  }
+
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.25fr 1fr 1fr;
+    gap:34px;
+    padding-bottom:34px;
+    border-bottom:1px solid rgba(255,255,255,.14);
+  }
+
+  .footer-brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:16px;
+  }
+
+  .footer-brand img{
+    height:56px;
+    width:56px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid rgba(255,255,255,.28);
+  }
+
+  .footer-brand strong{
+    display:block;
+    color:#fff;
+    font-size:1rem;
+    font-weight:800;
+    line-height:1.3;
+  }
+
+  .footer-brand span{
+    display:block;
+    font-size:.72rem;
+    letter-spacing:1.8px;
+    text-transform:uppercase;
+    color:#9CC6F3;
+    margin-top:4px;
+    font-weight:600;
+  }
+
+  .footer-col h4{
+    color:#fff;
+    font-size:.78rem;
+    font-weight:700;
+    letter-spacing:1.8px;
+    text-transform:uppercase;
+    margin:0 0 16px;
+  }
+
+  .footer-col p,
+  .footer-col a{
+    font-size:.92rem;
+    line-height:1.85;
+    color:rgba(255,255,255,.78);
+    text-decoration:none;
+    margin:0 0 8px;
+    display:block;
+  }
+
+  .footer-col a:hover{color:#fff;}
+
+  .footer-bottom{
+    padding-top:22px;
+    text-align:center;
+    font-size:.82rem;
+    color:rgba(255,255,255,.55);
+    line-height:1.8;
+  }
+
+  /* ============ REVEAL ANIMATION ============ */
+  .js .reveal{
+    opacity:0;
+    transform:translateY(20px);
+    transition:opacity .7s ease, transform .7s ease;
+  }
+
+  .js .reveal.in{
+    opacity:1;
+    transform:none;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .js .reveal{opacity:1;transform:none;transition:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width:900px){
+    .footer-grid{
+      grid-template-columns:1fr 1fr;
+    }
+    .footer-col:first-child{grid-column:1 / -1;}
+  }
+
+  @media (max-width:760px){
+    .header-phone{display:none;}
+    .brand img{height:44px;width:44px;}
+    .brand-name{font-size:.9rem;}
+    .btn{padding:11px 20px;font-size:.78rem;}
+
+    .hero{padding:56px 0 62px;}
+    .hero p{font-size:.98rem;}
+
+    .article-wrap{padding:38px 0 12px;}
+    .block{padding:28px 24px;border-radius:16px;}
+    .block p{font-size:.98rem;}
+    .lede{padding-left:18px;font-size:1.04rem;}
+
+    .map-section{padding:32px 20px 30px;border-radius:18px;}
+    .map-frame{aspect-ratio:4/3;border-width:4px;}
+
+    .faq-item{padding:20px 20px;}
+  }
+
+  @media (max-width:520px){
+    .brand-text{display:none;}
+    .container{padding:0 16px;}
+    .footer-grid{grid-template-columns:1fr;gap:26px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="https://images.squarespace-cdn.com/content/v1/68f5c5ef2cf8fa0a3bc27cbf/2bae9f71-fedd-4534-aa4a-37bd41ee7f9d/Serna_Dylan-Edit.JPG" alt="ADU Realtor - Dylan Serna">
+      <div class="brand-text">
+        <span class="brand-name">ADU Realtor</span>
+        <span class="brand-sub">Dylan Serna</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="header-phone">(714) 860-2868</span>
+      <a class="btn btn-grey" href="tel:+17148602868">Call Now</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-badge"><span class="dot"></span> ADU Financing · Anaheim, California</div>
+    <h1>What Financing Challenges Can Buyers Face When Purchasing a Home With an ADU?</h1>
+    <div class="hero-rule"></div>
+    <p>Understand the common financing questions, documentation needs, and loan program rules before you buy a home with an ADU.</p>
+  </div>
+</section>
+
+<!-- ================= ARTICLE ================= -->
+<main class="article-wrap">
+  <div class="container">
+    <article class="content">
+
+      <!-- INTRO / LEDE with first GMB link -->
+      <p class="lede reveal">
+        Buying a home with an accessory dwelling unit can offer extra space, rental options, and more flexible living. However, financing this type of property can be more complex than financing a standard home. Buyers may face questions about the ADU's value, condition, permits, rental use, and effect on the overall property.
+      </p>
+
+      <p class="reveal" style="font-size:1.02rem;line-height:1.9;color:var(--body);margin:0 0 18px;">
+        Lenders may also review the main home and ADU in different ways. As a result, the loan process can involve extra documents, property checks, and financial details. Working with an <a href="https://maps.app.goo.gl/xZRQKn5ZbgLq5XbWA" target="_blank" rel="noopener">ADU housing realtor</a> can help buyers understand what to review before they begin the financing process.
+      </p>
+
+      <p class="reveal" style="font-size:1.02rem;line-height:1.9;color:var(--body);margin:0 0 40px;">
+        Knowing the common financing challenges early can help buyers plan better, avoid delays, and prepare for questions from lenders. It also makes it easier to compare properties based on more than the asking price.
+      </p>
+
+      <!-- SECTION 1 -->
+      <section class="block reveal">
+        <h2>Why Can Financing an ADU Property Be More Complex?</h2>
+        <p>A home with an ADU includes more than one living space, which can make the property harder to evaluate. Lenders need to understand the total property, including how the ADU was built and how it is used.</p>
+        <p>The lender may review the size, layout, condition, and legal status of the ADU before deciding how it affects the loan. In some cases, the lender may also consider whether the property records clearly show the additional unit.</p>
+        <p>An <strong>ADU real estate agent</strong> can help buyers identify these questions before they submit an offer. This can be useful because financing problems often become harder to manage after a contract has already been signed.</p>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="block reveal">
+        <h2>How Does ADU Appraisal Affect Financing?</h2>
+        <p>An appraisal plays an important role in many home purchases. It gives the lender an opinion of the property's market value based on factors such as location, condition, size, features, and comparable properties.</p>
+        <p>An ADU can make the appraisal process more detailed. The appraiser may need to consider both the main home and the additional living space. The value assigned to the ADU may also vary depending on local market demand and the type of comparable properties available.</p>
+        <p>If the appraised value is lower than expected, the buyer may need to review the loan structure again. This can affect the amount a lender is willing to finance and may require the buyer to bring more funds to closing.</p>
+      </section>
+
+      <!-- SECTION 3 -->
+      <section class="block reveal">
+        <h2>Can Unpermitted ADUs Create Loan Problems?</h2>
+        <p>An unpermitted ADU can create serious questions during the financing process. Lenders often need accurate information about the property, and unclear records can make underwriting more difficult.</p>
+        <p>A buyer may see a finished unit during a property tour, but the public records may not identify it as a legal dwelling. This difference can raise concerns about safety, zoning, construction standards, and future use.</p>
+        <p>A reliable <strong>ADU property realtor</strong> can encourage buyers to review available property records before committing to a purchase. Buyers should also work with the appropriate local authorities and qualified professionals to verify permits and legal requirements.</p>
+        <p>Addressing these issues early can reduce the chance of unexpected financing concerns later in the process.</p>
+      </section>
+
+      <!-- SECTION 4 — MID ARTICLE LINK (adurealtor.net) -->
+      <section class="block reveal">
+        <h2>How Can Rental Income From an ADU Affect a Loan?</h2>
+        <p>Some buyers purchase homes with ADUs because they plan to rent the additional space. In certain situations, rental income may play a role in the buyer's financial planning.</p>
+        <p>However, buyers should not assume that projected rent will automatically be counted by a lender. Loan programs have different rules for how rental income may be documented and considered.</p>
+        <p>The lender may request leases, market rent data, tax records, or other supporting documents. The amount that can be considered may also depend on the loan program and the borrower's financial profile.</p>
+        <p>An <a href="https://www.adurealtor.net/" target="_blank" rel="noopener">ADU real estate expert</a> can help buyers recognize the importance of this issue during the property search. Still, the lender should provide the final guidance on income calculations and loan qualification.</p>
+      </section>
+
+      <!-- SECTION 5 -->
+      <section class="block reveal">
+        <h2>Does the Type of ADU Matter to Lenders?</h2>
+        <p>Not all ADUs are built in the same way. Some are attached to the main house, while others are detached structures. Some may have been built recently, while others may be older additions.</p>
+        <p>The type, condition, and legal status of the ADU can affect how the property is reviewed. A well maintained unit with clear records may be easier to understand than one with unclear permits or unusual construction.</p>
+        <p>The relationship between the ADU and the main residence can also matter. Access, utilities, entrances, and overall layout may influence how the property is described and valued.</p>
+        <p>For buyers searching through <strong>ADU homes for sale</strong>, these differences are important. Two homes with similar prices may present very different financing considerations once the full property is reviewed.</p>
+      </section>
+
+      <!-- SECTION 6 -->
+      <section class="block reveal">
+        <h2>What Documentation May Lenders Request?</h2>
+        <p>Buyers should be prepared for lenders to ask for documents related to both the borrower and the property. Standard mortgage paperwork may include income records, bank statements, employment details, tax information, and credit history.</p>
+        <p>For a home with an ADU, additional property documents may also become important. These could include permits, plans, property records, rental information, and reports related to improvements.</p>
+        <p>The exact requirements vary by lender and loan program. That is why buyers should ask questions early instead of waiting until the underwriting stage.</p>
+        <p>An <strong>ADU real estate broker</strong> can help buyers understand which property details deserve attention before they make an offer. Early preparation can make it easier to respond when the lender requests additional information.</p>
+      </section>
+
+      <!-- SECTION 7 -->
+      <section class="block reveal">
+        <h2>Can Property Condition Increase Financing Concerns?</h2>
+        <p>Property condition is another factor that may affect financing. An ADU with major repair needs can create questions about safety, habitability, and overall value.</p>
+        <p>Problems with the roof, plumbing, wiring, heating, windows, foundation, or other systems may influence the lender's review. Depending on the loan and the condition of the property, repairs may need to be addressed before closing or included in a suitable financing plan.</p>
+        <p>This is one reason buyers should take inspections seriously. A property that appears attractive during a showing may require significant work after a closer review.</p>
+        <p>A qualified inspector can identify physical concerns, while a lender can explain how those concerns may affect the loan process.</p>
+      </section>
+
+      <!-- SECTION 8 -->
+      <section class="block reveal">
+        <h2>Why Do Loan Program Rules Matter?</h2>
+        <p>Different mortgage programs can have different requirements for properties with ADUs. Buyers may find that one loan option treats the additional unit differently from another.</p>
+        <p>The lender may consider the ADU's legal status, intended use, rental potential, property design, and documentation. Underwriting standards can also change based on the specific loan product.</p>
+        <p>Because of these differences, buyers should discuss the property with their lender before assuming that a particular financing strategy will work.</p>
+        <p>An <strong>ADU housing realtor</strong> can help buyers compare properties and prepare questions, but the lender remains the right source for final loan approval requirements.</p>
+      </section>
+
+      <!-- SECTION 9 -->
+      <section class="block reveal">
+        <h2>How Can Buyers Prepare for Financing Challenges?</h2>
+        <p>Good preparation begins before making an offer. Buyers should understand their budget, review their financial records, and speak with a qualified lender about the type of property they plan to purchase.</p>
+        <p>It is also useful to review the property's ADU details as early as possible. Buyers should look at available permits, public records, property condition, and any information supplied by the seller.</p>
+        <p>A real estate professional can help buyers identify concerns during the search stage. This can reduce the risk of falling in love with a property that later creates major financing difficulties.</p>
+        <p>ADU Realtor - Dylan Serna can help buyers focus their search on properties that match their goals while encouraging careful review of important property details.</p>
+      </section>
+
+      <!-- SECTION 10 -->
+      <section class="block reveal">
+        <h2>What Should Buyers Know Before Applying for Financing?</h2>
+        <p>The most important step is to understand that buying a home with an ADU may require more research than a standard home purchase. Buyers should expect questions about value, records, condition, intended use, and possible rental income.</p>
+        <p>They should also avoid making assumptions about what a lender will accept. Every buyer, property, and loan program can be different.</p>
+        <p>Before moving forward, buyers should review financing options with their lender and verify property information through appropriate records and qualified professionals. A careful process can help uncover challenges while there is still time to address them.</p>
+      </section>
+
+      <!-- FAQ -->
+      <h2 class="faq-title reveal">FAQs About Financing a Home With an ADU</h2>
+      <p class="faq-sub reveal">Quick answers to the questions buyers ask most often.</p>
+
+      <div class="faq-grid">
+        <div class="faq-item reveal">
+          <h3>Can I Get a Mortgage for a Home With an ADU?</h3>
+          <p>Yes, financing may be available for homes with ADUs, but the exact requirements depend on the lender, loan program, borrower, and property. Buyers should discuss the specific property with their lender before making financial assumptions.</p>
+        </div>
+
+        <div class="faq-item reveal">
+          <h3>Does an ADU Increase the Appraised Value of a Home?</h3>
+          <p>An ADU may contribute value to a property, but the amount can vary by location, condition, size, quality, and local market demand. The appraiser determines the market value based on available evidence.</p>
+        </div>
+
+        <div class="faq-item reveal">
+          <h3>Can Rental Income From an ADU Help Me Qualify for a Mortgage?</h3>
+          <p>It may be possible under certain loan programs, but rental income rules differ. The lender may require documentation and may use only a portion of projected or verified rental income when reviewing the application.</p>
+        </div>
+
+        <div class="faq-item reveal">
+          <h3>Is an Unpermitted ADU a Problem for Financing?</h3>
+          <p>An unpermitted ADU can create financing questions because the lender may need accurate information about the property's legal status and value. Buyers should investigate permits and local requirements before proceeding.</p>
+        </div>
+
+        <div class="faq-item reveal">
+          <h3>Should I Talk to a Realtor or Lender First?</h3>
+          <p>Talking with a lender early can help you understand your financing range, while a real estate professional can help you identify suitable properties. Working with both early in the process can make the search more informed and organized.</p>
+        </div>
+      </div>
+
+      <!-- INTERNAL LINKING SECTION BEFORE CONCLUSION -->
+      <section class="block reveal">
+        <h2>Financing Challenges for ADU Buyers</h2>
+        <p>Learn about the common financing challenges buyers face when purchasing a home with an ADU.</p>
+        <a class="btn btn-grey" href="https://adu-property-realtor.irtazak-localseo.workers.dev/" target="_blank" rel="noopener">Read the Guide</a>
+      </section>
+
+      <!-- CONCLUSION — BLUE CARD with FINAL LINK (adurealtor.net) -->
+      <section class="block block--blue reveal">
+        <h2>Conclusion</h2>
+        <p>Purchasing a home with an ADU can provide useful space and potential financial benefits, but the financing process may involve additional questions. Appraisals, permits, property condition, rental income, documentation, and loan program rules can all affect how the purchase is reviewed.</p>
+        <p>Buyers can reduce surprises by learning about these issues before making an offer. Careful property research and early communication with a lender can also make the process easier to manage.</p>
+        <p>With the right information and professional guidance, buyers can better understand their options and move forward with greater confidence when considering a home with an ADU. <a href="https://www.adurealtor.net/" target="_blank" rel="noopener">ADU Realtor - Dylan Serna</a> can help you review the full property and plan your next step with clarity.</p>
+      </section>
+
+      <!-- ================= MAP ================= -->
+      <section class="map-section reveal">
+        <div class="map-head">
+          <span class="eyebrow">Visit Us</span>
+          <h2>Find Us on Google Map</h2>
+          <p>2108 W Lullaby Lane, Anaheim, CA 92804, USA</p>
+        </div>
+
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d403636.62007471523!2d0!3d0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe819b1ffa24f585%3A0x780be48f56f292af!2sADU%20Realtor%20-%20Dylan%20Serna!5e1!3m2!1sen!2s!4v1790272224533!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="map-cta">
+          <a class="btn btn-grey" href="tel:+17148602868">Call (714) 860-2868</a>
+        </div>
+      </section>
+
+    </article>
+  </div>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="https://images.squarespace-cdn.com/content/v1/68f5c5ef2cf8fa0a3bc27cbf/2bae9f71-fedd-4534-aa4a-37bd41ee7f9d/Serna_Dylan-Edit.JPG" alt="ADU Realtor - Dylan Serna">
+          <div>
+            <strong>ADU Realtor - Dylan Serna</strong>
+            <span>Anaheim, California</span>
+          </div>
+        </div>
+        <p>Helping buyers understand the true value of a home — and the ADU that comes with it.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>2108 W Lullaby Lane,<br>Anaheim, CA 92804, USA</p>
+        <a href="tel:+17148602868">(714) 860-2868</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Website</h4>
+        <a href="https://www.adurealtor.net/" target="_blank" rel="noopener">www.adurealtor.net</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> ADU Realtor - Dylan Serna. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  (function () {
+    var items = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) {
+      items.forEach(function (el) { el.classList.add('in'); });
+      return;
+    }
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+
+    items.forEach(function (el) { observer.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
